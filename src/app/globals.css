@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#070B14; --surface:#101828; --surface-2:#161F33; --border:#1F2A40;
+  --primary:#7C3AED; --accent:#06B6D4; --success:#22C55E; --warning:#F59E0B;
+  --danger:#EF4444; --text:#F8FAFC; --muted:#94A3B8;
+}
+body{ background:var(--bg); color:var(--text); }
+.input{
+  width:100%; padding:10px 12px; border-radius:12px; font-size:14px;
+  border:1px solid var(--border); background:var(--surface-2); color:var(--text);
+  outline:none; transition:border-color .15s;
+}
+.input:focus{ border-color:var(--primary); }
