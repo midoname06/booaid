@@ -11,6 +11,7 @@ build/
 # env — MAI committare questi file
 .env
 .env.local
+.env.local.save
 .env.*.local
 
 # debug
