@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { NextRequest, NextResponse } from "next/server";
 import { getProvider, type Tool, type ChatMessage } from "@/lib/ai/provider";
 import { buildSystemPrompt, type AgentConfig } from "@/lib/ai/prompts";
